@@ -40,11 +40,11 @@ The example above would extend only the base configuration. To use a more specif
 
 ## Provided configurations
 
-To see the exact rules applied by each config, view the related source file. Each config extends the `base` config, and more specific configs combine and extend the configs with matching names. For example, `prettier-node` extends `prettier` and `node` configs, which themselves extend from `base`, which in turn extends from `eslint-recommended`.
+To see the exact rules applied by each config, view the related source file. Each config extends the `base` config, and more specific configs combine and extend the configs with matching names. For example, `prettier-node` extends `prettier` and `node` configs, which themselves extend from `base`, which in turn extends from `eslint:recommended`.
 
 Not all rules found in the sources will necessarily apply, depending on the config used. For example, all Prettier-based configs will automatically disable rules that would otherwise conflict with how Prettier formats automatically.
 
-- `base` — extends the `eslint-recommended` config, with added base rules
+- `base` — extends the `eslint:recommended` config, with added base rules
 - `node` — sets globals for Node
 - `prettier` — formats with Prettier
 - `prettier-node` — same as Prettier, with Node globals
