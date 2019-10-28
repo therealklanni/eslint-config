@@ -1,0 +1,62 @@
+{
+  "name": "@therealklanni/eslint-config",
+  "version": "0.1.0",
+  "description": "Shareable ESLint config",
+  "author": "Kevin Lanni <therealklanni@gmail.com> (https://github.com/therealklanni)",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "./prettier-node"
+  },
+  "prettier": {
+    "endOfLine": "lf",
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "therealklanni"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therealklanni/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/therealklanni/eslint-config/issues"
+  },
+  "homepage": "https://github.com/therealklanni/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": ">= 6",
+    "prettier": ">= 1",
+    "eslint-plugin-prettier": ">= 3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@therealklanni/commitlint-config": "^0.1.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2",
+    "prettier": "^1.18.2"
+  }
+}
