@@ -117,7 +117,6 @@ module.exports = {
     'no-new-object': 'error',
     'no-tabs': 'error',
     'no-trailing-spaces': 'error',
-    'no-underscore-dangle': 'error',
     'no-unneeded-ternary': 'error',
     'no-whitespace-before-property': 'error',
     'nonblock-statement-body-position': 'error',
