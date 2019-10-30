@@ -18,7 +18,7 @@ are disabled.
 ## Installation
 
 ```sh
-npm install --save-dev @therealklanni/eslint-config eslint
+npm install --save-dev @therealklanni/eslint-{config,plugin-import} eslint
 ```
 
 If you'll be using any of the [Prettier](https://prettier.io)-based configs, please also install

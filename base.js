@@ -2,6 +2,7 @@
 module.exports = {
   env: { es6: true, browser: true },
   parserOptions: { ecmaVersion: 10 },
+  plugins: ['import'],
   extends: ['eslint:recommended'],
   rules: {
     // Auto-fixable rules
@@ -194,6 +195,12 @@ module.exports = {
     'rest-spread-spacing': 'error',
     'symbol-description': 'error',
     'template-curly-spacing': 'error',
-    'yield-star-spacing': 'error'
+    'yield-star-spacing': 'error',
+
+    // import
+    'import/order': [
+      'error',
+      { groups: [['builtin', 'external'], 'unknown', ['internal', 'parent', 'sibling', 'index']] }
+    ]
   }
 }
