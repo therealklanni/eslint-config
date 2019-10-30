@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/therealklanni/eslint-config/compare/v0.1.4...v0.1.5) (2019-10-30)
+
+
+### Features
+
+* **base:** ignore underscored unused vars ([c6b66fc](https://github.com/therealklanni/eslint-config/commit/c6b66fccd5fa681d178680c1a33d31f007ce5e06))
+
 ### [0.1.4](https://github.com/therealklanni/eslint-config/compare/v0.1.3...v0.1.4) (2019-10-30)
 
 
