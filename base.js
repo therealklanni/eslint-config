@@ -5,6 +5,9 @@ module.exports = {
   plugins: ['import'],
   extends: ['eslint:recommended'],
   rules: {
+    // eslint:recommended
+    'no-unused-vars': ['error', { varsIgnorePattern: '^_', argsIgnorePattern: '^_' }],
+
     // Auto-fixable rules
     'no-extra-parens': 'error',
     curly: 'error',
