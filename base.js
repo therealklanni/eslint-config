@@ -200,7 +200,10 @@ module.exports = {
     // import
     'import/order': [
       'error',
-      { groups: [['builtin', 'external'], 'unknown', ['internal', 'parent', 'sibling', 'index']] }
+      {
+        groups: [['builtin', 'external'], 'unknown', ['internal', 'parent', 'sibling', 'index']],
+        'newlines-between': 'always-and-inside-groups'
+      }
     ]
   }
 }
