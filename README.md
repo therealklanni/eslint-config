@@ -23,8 +23,10 @@ npm install --save-dev @therealklanni/eslint-config eslint
 If you'll be using any of the [Prettier](https://prettier.io)-based configs, please also install
 
 ```sh
-npm install --save-dev eslint-{config,plugin}-prettier
+npm install --save-dev eslint-{config,plugin}-prettier prettier
 ```
+
+> You might also consider using [@therealklanni/prettier-config](https://github.com/therealklanni/prettier-config)
 
 ## Usage
 
