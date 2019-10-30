@@ -68,6 +68,8 @@ example, all Prettier-based configs will automatically disable rules that would 
 with how Prettier formats automatically.
 
 - `base` — extends the `eslint:recommended` config, with added base rules
-- `node` — sets globals for Node
+- `node` — sets globals and rules for Node
+- `node-cli`
 - `prettier` — formats with Prettier
 - `prettier-node` — same as Prettier, with Node globals
+- `prettier-node-cli`
