@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/therealklanni/eslint-config/compare/v0.1.2...v0.1.3) (2019-10-30)
+
+
+### Features
+
+* **base:** add import grouping ([8f43795](https://github.com/therealklanni/eslint-config/commit/8f4379510a5189a5fa27bf2e2ad85ea4326a74d1))
+
 ### [0.1.2](https://github.com/therealklanni/eslint-config/compare/v0.1.1...v0.1.2) (2019-10-30)
 
 
