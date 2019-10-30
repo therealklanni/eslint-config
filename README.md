@@ -7,8 +7,9 @@ Each rule and its associated configuration has been selected with the following 
 
 - Maximum readability/understanding of your code
 - Maximum (ease of) refactorability of your code
-- Reduce or catch common pitfalls
+- Reduce or catch common pitfalls and code-smells
 - Adhere to commonest best practices
+- Any rules that might cause excessive errors (that are not auto-fixable) are set to "warn"
 
 For these reasons, much of the rules are enabled and most are using the default configuration
 except where it makes sense for achieving said goals. When used with Prettier, conflicting rules
