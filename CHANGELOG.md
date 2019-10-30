@@ -1,0 +1,17 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### 0.1.1 (2019-10-30)
+
+
+### Features
+
+* **base:** add rules ([e90f176](https://github.com/therealklanni/eslint-config/commit/e90f1769c8027bb82071adb10a02f11f98717256))
+* **node:** add rules ([b79b690](https://github.com/therealklanni/eslint-config/commit/b79b690e5df4a9b9990e06f2db9b422b60ac9ca8))
+* add node-cli configs ([df1f13a](https://github.com/therealklanni/eslint-config/commit/df1f13ad854c1b15ffb541d811f7bec3b5207996))
+
+
+### Bug Fixes
+
+* remove unneeded eslint-disable ([97194bd](https://github.com/therealklanni/eslint-config/commit/97194bd5f8d8e48ef8b7797e37c01cebe9f40b3f))
