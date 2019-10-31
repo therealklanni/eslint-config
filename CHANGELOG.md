@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/therealklanni/eslint-config/compare/v0.1.5...v0.1.6) (2019-10-31)
+
+
+### Features
+
+* **node:** set sourceType:module ([83db4d7](https://github.com/therealklanni/eslint-config/commit/83db4d7009a60ceb5628a350c09b6d4255057241))
+
 ### [0.1.5](https://github.com/therealklanni/eslint-config/compare/v0.1.4...v0.1.5) (2019-10-30)
 
 
