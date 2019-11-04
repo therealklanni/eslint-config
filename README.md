@@ -76,3 +76,22 @@ with how Prettier formats automatically.
 - `prettier` — formats with Prettier
 - `prettier-node` — same as Prettier, with Node globals
 - `prettier-node-cli`
+
+### Supplemental configurations
+
+These configurations can be included (via extends) as supplementary to the above, or used
+stand-alone. They do not extend the base or other configs and instead just provide a set of
+sensible defaults for a specific plugin.
+
+- `jest` — configures [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)
+
+#### Example usage:
+
+```json
+{
+  "extends": [
+    "@therealklanni/eslint-config/jest",
+    "@therealklanni/eslint-config/prettier-node",
+  ]
+}
+```
