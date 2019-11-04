@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/therealklanni/eslint-config/compare/v0.1.5...v0.1.7) (2019-11-04)
+
+
+### Features
+
+* add jest config ([57136f6](https://github.com/therealklanni/eslint-config/commit/57136f6676635dd9289c7a258ddaaa1ffb477adf))
+* **node:** set sourceType:module ([1f6e3d2](https://github.com/therealklanni/eslint-config/commit/1f6e3d28ac07be9b6bc5e572e209af36c67125c2))
+
 ### [0.1.6](https://github.com/therealklanni/eslint-config/compare/v0.1.5...v0.1.6) (2019-10-31)
 
 
