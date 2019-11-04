@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.8](https://github.com/therealklanni/eslint-config/compare/v0.1.7...v0.1.8) (2019-11-04)
+
+
+### Bug Fixes
+
+* **jest:** update rule name ([16a904c](https://github.com/therealklanni/eslint-config/commit/16a904ce3295f3126715981b9fb6e8184adb22c9))
+
 ### [0.1.7](https://github.com/therealklanni/eslint-config/compare/v0.1.5...v0.1.7) (2019-11-04)
 
 
