@@ -20,7 +20,7 @@ module.exports = {
     'jest/prefer-to-have-length': 'error',
     'jest/prefer-todo': 'error',
     'jest/require-top-level-describe': 'error',
-    'jest/require-tothrow-message': 'error',
+    'jest/require-to-throw-message': 'error',
     'jest/valid-title': 'error'
   }
 }
