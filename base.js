@@ -138,6 +138,7 @@ module.exports = {
       { blankLine: 'always', prev: '*', next: 'case' },
       { blankLine: 'always', prev: '*', next: 'default' },
       { blankLine: 'always', prev: '*', next: 'expression' },
+      { blankLine: 'any', prev: 'expression', next: 'expression' },
       { blankLine: 'always', prev: '*', next: 'debugger' },
       { blankLine: 'always', prev: 'debugger', next: '*' },
       { blankLine: 'always', prev: '*', next: 'import' },
