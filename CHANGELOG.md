@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.9](https://github.com/therealklanni/eslint-config/compare/v0.1.8...v0.1.9) (2019-11-06)
+
+
+### Features
+
+* **base:** allow expressions to be unpadded ([1825f49](https://github.com/therealklanni/eslint-config/commit/1825f490e53840a172189cd0b2e8f5fb143c02ac))
+
 ### [0.1.8](https://github.com/therealklanni/eslint-config/compare/v0.1.7...v0.1.8) (2019-11-04)
 
 
