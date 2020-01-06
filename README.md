@@ -27,6 +27,12 @@ If you'll be using any of the [Prettier](https://prettier.io)-based configs, ple
 npm install --save-dev eslint-{config,plugin}-prettier prettier
 ```
 
+For TypeScript configs, you'll also need [@typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
+
+```sh
+npm install --save-dev @typescript-eslint/{parser,eslint-plugin}
+```
+
 > You might also consider using [@therealklanni/prettier-config](https://github.com/therealklanni/prettier-config)
 
 ## Usage
@@ -76,6 +82,8 @@ with how Prettier formats automatically.
 - `prettier` — formats with Prettier
 - `prettier-node` — same as Prettier, with Node globals
 - `prettier-node-cli`
+- `typescript` — TypeScript via [@typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
+- `typescript-prettier` — TS with Prettier
 
 ### Supplemental configurations
 
