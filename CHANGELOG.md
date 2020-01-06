@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.11](https://github.com/therealklanni/eslint-config/compare/v0.1.10...v0.1.11) (2020-01-06)
+
+
+### Bug Fixes
+
+* prettier compatibility ([a2355ad](https://github.com/therealklanni/eslint-config/commit/a2355adbfc32330309112704c9866593d10ced94))
+
 ### [0.1.10](https://github.com/therealklanni/eslint-config/compare/v0.1.9...v0.1.10) (2020-01-06)
 
 
