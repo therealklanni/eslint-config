@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.10](https://github.com/therealklanni/eslint-config/compare/v0.1.9...v0.1.10) (2020-01-06)
+
+
+### Features
+
+* add typescript configs ([04b59a0](https://github.com/therealklanni/eslint-config/commit/04b59a042968c6d935b69aebda23072d68609289))
+
 ### [0.1.9](https://github.com/therealklanni/eslint-config/compare/v0.1.8...v0.1.9) (2019-11-06)
 
 
