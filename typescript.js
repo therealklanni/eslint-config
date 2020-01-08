@@ -28,7 +28,7 @@ module.exports = {
     '@typescript-eslint/no-extra-semi': ['error'],
     '@typescript-eslint/no-extraneous-class': 'error',
     '@typescript-eslint/no-floating-promises': 'warn',
-    '@typescript-eslint/no-implied-eval': 'error',
+    '@typescript-eslint/no-implied-eval': 'off',
     '@typescript-eslint/no-throw-literal': 'error',
     '@typescript-eslint/no-unnecessary-condition': 'error',
     '@typescript-eslint/no-unnecessary-type-arguments': 'error',
@@ -51,7 +51,7 @@ module.exports = {
     quotes: 'off',
     '@typescript-eslint/quotes': ['error', 'single'],
     '@typescript-eslint/restrict-plus-operands': 'error',
-    '@typescript-eslint/return-await': 'error',
+    '@typescript-eslint/return-await': 'warn',
     // must disable the base rule as it can report incorrect errors
     'space-before-function-paren': 'off',
     '@typescript-eslint/space-before-function-paren': [
