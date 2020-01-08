@@ -52,6 +52,8 @@ module.exports = {
     '@typescript-eslint/quotes': ['error', 'single'],
     '@typescript-eslint/restrict-plus-operands': 'error',
     '@typescript-eslint/return-await': 'warn',
+    'require-await': 'off',
+    '@typescript-eslint/require-await': 'off',
     // must disable the base rule as it can report incorrect errors
     'space-before-function-paren': 'off',
     '@typescript-eslint/space-before-function-paren': [
