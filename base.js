@@ -72,7 +72,7 @@ module.exports = {
     'prefer-promise-reject-errors': 'error',
     'prefer-regex-literals': 'error',
     radix: 'error',
-    'require-await': 'error',
+    'require-await': 'off',
     'require-unicode-regexp': 'warn',
     'vars-on-top': 'error',
 
