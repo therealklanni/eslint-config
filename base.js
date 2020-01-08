@@ -101,7 +101,7 @@ module.exports = {
     'keyword-spacing': 'error',
     'line-comment-position': 'error',
     'linebreak-style': 'error',
-    'lines-between-class-members': 'error',
+    'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     'max-len': ['warn', { code: 100 }],
     'max-params': 'warn',
     'multiline-comment-style': ['error', 'separate-lines'],
