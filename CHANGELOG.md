@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.12](https://github.com/therealklanni/eslint-config/compare/v0.1.11...v0.1.12) (2020-01-08)
+
+
+### Bug Fixes
+
+* **base:** turn off require-await ([0cf4a2b](https://github.com/therealklanni/eslint-config/commit/0cf4a2bca83e658e66597c739e8c7bd816194577))
+* **typescript:** turn off conflicting rules ([d65b25b](https://github.com/therealklanni/eslint-config/commit/d65b25b835d7e155f6beb3067d438c88ff238fce))
+
 ### [0.1.11](https://github.com/therealklanni/eslint-config/compare/v0.1.10...v0.1.11) (2020-01-06)
 
 
