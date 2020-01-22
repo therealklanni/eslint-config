@@ -15,25 +15,32 @@ For these reasons, much of the rules are enabled and most are using the default 
 except where it makes sense for achieving said goals. When used with Prettier, conflicting rules
 are disabled.
 
+> 💁‍♂️ You might also consider using
+> [@therealklanni/prettier-config](https://github.com/therealklanni/prettier-config)
+
 ## Installation
 
 ```sh
-npm install --save-dev @therealklanni/eslint-config eslint-plugin-import eslint
+npm install --save-dev @therealklanni/eslint-config
 ```
 
-If you'll be using any of the [Prettier](https://prettier.io)-based configs, please also install
+## Post install
 
-```sh
-npm install --save-dev eslint-{config,plugin}-prettier prettier
+After installation, you'll be prompted to install the devDependencies requirements. The command is
+as follows. Replace `CONFIG_NAME` with the name of the config (as shown in [Provided
+configurations](#provided-configurations)). Use the command again for any additional [Supplemental
+configurations](#supplemental-configurations).
+
+```
+npm explore @therealklanni/eslint-config -- npm run @deps CONFIG_NAME $(pwd)
 ```
 
-For TypeScript configs, you'll also need [@typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
+> This command will automatically install the necessary devDependencies after confirmation. Note
+> that `$(pwd)` is required to tell the script where to install the dependencies, or you can supply
+> the path manually.
 
-```sh
-npm install --save-dev @typescript-eslint/{parser,eslint-plugin}
-```
-
-> You might also consider using [@therealklanni/prettier-config](https://github.com/therealklanni/prettier-config)
+> If you prefer to install the devDependencies on your own, they will be listed before confirmation
+> and then you can cancel the script (press `n` or `Ctrl-C`).
 
 ## Usage
 
@@ -82,8 +89,13 @@ with how Prettier formats automatically.
 - `prettier` — formats with Prettier
 - `prettier-node` — same as Prettier, with Node globals
 - `prettier-node-cli`
-- `typescript` — TypeScript via [@typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
+- `typescript` — TypeScript via
+  [@typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
 - `typescript-prettier` — TS with Prettier
+- `jsx` — JSX
+- `jsx-cra` — `eslint-config-react-app` config provided by
+  [create-react-app](https://github.com/facebook/create-react-app) with JSX defaults
+  > Use this when you want CRA's JSX defaults in a non-CRA project
 
 ### Supplemental configurations
 
