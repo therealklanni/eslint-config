@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.14](https://github.com/therealklanni/eslint-config/compare/v0.1.13...v0.1.14) (2020-01-22)
+
+
+### Features
+
+* add [@deps](https://github.com/deps) helper ([fccfc23](https://github.com/therealklanni/eslint-config/commit/fccfc23640f9239cbebf03d8400081afa4035c50))
+* add jsx bare configs ([dcee144](https://github.com/therealklanni/eslint-config/commit/dcee14491b12b62fd67c2ee1bedd324a86cb759a))
+
 ### [0.1.13](https://github.com/therealklanni/eslint-config/compare/v0.1.12...v0.1.13) (2020-01-08)
 
 
