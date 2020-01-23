@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./base'],
+  extends: ['./base', './typescript.js'],
   rules: {
     'jsx-quotes': 'error'
   }
