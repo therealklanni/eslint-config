@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.17](https://github.com/therealklanni/eslint-config/compare/v0.1.16...v0.1.17) (2020-01-23)
+
+### Bug Fixes
+
+- **deps:** prettier-cra missing packages ([4bf3006](https://github.com/therealklanni/eslint-config/commit/4bf30061b83222955722aa3606631ce4ec1958db))
+
 ### [0.1.16](https://github.com/therealklanni/eslint-config/compare/v0.1.15...v0.1.16) (2020-01-23)
 
 ### Features
