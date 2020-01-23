@@ -17,6 +17,9 @@ ts=(
 tsprettier=( ${ts[*]} ${prettier[*]} )
 # Jest peer deps
 jest=( eslint-plugin-jest )
+# jsx
+jsx=( ${ts[*]} )
+prettierjsx=( ${ts[*]} ${prettier[*]} )
 # create-react-app peer deps
 jsxcra=(
   ${ts[*]}
@@ -57,13 +60,19 @@ case "$1" in
     install_pkgs "${tsprettier[@]}" ;;
 
   prettier-node|node-prettier|node-cli-prettier|prettier-node-cli|prettier)
-    install_pkgs "${base[@]}" "${prettier[@]}" ;;
+    install_pkgs "${prettier[@]}" ;;
+
+  jsx)
+    install_pkgs "${jsx[@]}" ;;
+
+  prettier-jsx)
+    install_pkgs "${prettierjsx[@]}" ;;
 
   jsx-cra|cra)
     install_pkgs "${jsxcra[@]}" ;;
 
   jsx-cra-prettier|cra-prettier|prettier-cra|jsx-prettier-cra|prettier-cra|prettier-jsx-cra)
-    install_pkgs "${prettierjsxcra}" ;;
+    install_pkgs "${prettierjsxcra[@]}" ;;
 
   jest)
     install_pkgs "${jest[@]}" ;;
