@@ -6,8 +6,8 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "@deps": "sh ./scripts/dev-deps.sh",
-    "postinstall": "sh ./scripts/postinstall.sh",
+    "@deps": "/usr/bin/env bash ./scripts/dev-deps.sh",
+    "postinstall": "/usr/bin/env bash ./scripts/postinstall.sh",
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "standard-version",
     "postrelease": "git push --follow-tags origin master && npm publish"

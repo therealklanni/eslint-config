@@ -22,7 +22,7 @@ echo If you would like these devDependencies installed automatically now,
 echo simply type or copy the command below and replace the word $(bold CONFIG_NAME)
 echo with the $(bold name) of the config you intend to use. E.g. \"typescript\"
 echo
-echo "\t$(bold npm explore @therealklanni/eslint-config -- npm run @deps CONFIG_NAME \$\(pwd\))"
+echo -e "\t$(bold npm explore @therealklanni/eslint-config -- npm run @deps CONFIG_NAME \$\(pwd\))"
 echo
 echo Docs @ https://github.com/therealklanni/eslint-config/blob/master/README.md
 echo
