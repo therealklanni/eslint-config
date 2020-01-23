@@ -65,6 +65,9 @@ case "$1" in
   jsx-cra-prettier|cra-prettier|prettier-cra|jsx-prettier-cra|prettier-cra|prettier-jsx-cra)
     install_pkgs "${prettierjsxcra}" ;;
 
+  jest)
+    install_pkgs "${jest[@]}" ;;
+
   node|node-cli|jsx|*)
     install_pkgs ;;
 esac
