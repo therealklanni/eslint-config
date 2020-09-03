@@ -1,0 +1,7 @@
+.vscode/
+scripts/
+.editorconfig
+.nvmrc
+commitlint.config.js
+test.ts
+test.js
