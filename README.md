@@ -87,7 +87,7 @@ with how Prettier formats automatically.
 - `prettier` — formats with Prettier
 - `typescript` — TypeScript via
   [@typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
-- `typescript-prettier` — TS with Prettier
+- `prettier-typescript` — TS with Prettier
 - `jsx` — JSX
 - `jsx-cra` — `eslint-config-react-app` config provided by
   [create-react-app](https://github.com/facebook/create-react-app) with JSX defaults
@@ -110,7 +110,7 @@ sensible defaults for a specific plugin.
   "extends": [
     "@therealklanni/eslint-config/jest",
     "@therealklanni/eslint-config/node",
-    "@therealklanni/eslint-config/prettier"
+    "@therealklanni/eslint-config/prettier-typescript"
   ]
 }
 ```
