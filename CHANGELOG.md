@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0-1](https://github.com/therealklanni/eslint-config/compare/v1.0.0-0...v1.0.0-1) (2020-09-03)
+
+### ⚠ BREAKING CHANGES
+
+- for consistency, `typescript-prettier` config is now
+  `prettier-typescript`.
+
+### Features
+
+- rename typescript-prettier ([878d08f](https://github.com/therealklanni/eslint-config/commit/878d08f716455e2d7868b4deabd85eb001f4c70d))
+
 ## [1.0.0-0](https://github.com/therealklanni/eslint-config/compare/v0.1.17...v1.0.0-0) (2020-09-03)
 
 ### ⚠ BREAKING CHANGES
