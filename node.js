@@ -1,7 +1,6 @@
 module.exports = {
   env: { node: true, browser: false },
   parserOptions: { sourceType: 'module' },
-  extends: ['./base'],
   rules: {
     'no-console': 'off',
     'global-require': 'error',

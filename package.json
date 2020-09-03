@@ -25,7 +25,10 @@
     ]
   },
   "eslintConfig": {
-    "extends": "./prettier-node"
+    "extends": [
+      "./node",
+      "./prettier"
+    ]
   },
   "prettier": "@therealklanni/prettier-config",
   "keywords": [

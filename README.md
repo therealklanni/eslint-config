@@ -84,11 +84,7 @@ example, all Prettier-based configs will automatically disable rules that would 
 with how Prettier formats automatically.
 
 - `base` — extends the `eslint:recommended` config, with added base rules
-- `node` — sets globals and rules for Node
-- `node-cli`
 - `prettier` — formats with Prettier
-- `prettier-node` — same as Prettier, with Node globals
-- `prettier-node-cli`
 - `typescript` — TypeScript via
   [@typescript-eslint](https://github.com/typescript-eslint/typescript-eslint)
 - `typescript-prettier` — TS with Prettier
@@ -103,6 +99,8 @@ These configurations can be included (via extends) as supplementary to the above
 stand-alone. They do not extend the base or other configs and instead just provide a set of
 sensible defaults for a specific plugin.
 
+- `node` — sets globals and rules for Node
+- `node-cli`
 - `jest` — configures [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)
 
 #### Example usage:
@@ -111,7 +109,8 @@ sensible defaults for a specific plugin.
 {
   "extends": [
     "@therealklanni/eslint-config/jest",
-    "@therealklanni/eslint-config/prettier-node",
+    "@therealklanni/eslint-config/node",
+    "@therealklanni/eslint-config/prettier"
   ]
 }
 ```
