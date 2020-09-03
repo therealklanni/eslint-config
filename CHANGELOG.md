@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0-0](https://github.com/therealklanni/eslint-config/compare/v0.1.17...v1.0.0-0) (2020-09-03)
+
+### ⚠ BREAKING CHANGES
+
+- node config no longer extends base config.
+
+### Features
+
+- make node supplementary ([3255a78](https://github.com/therealklanni/eslint-config/commit/3255a7804c9d016fa869911497f401bffdad7597))
+
 ### [0.1.17](https://github.com/therealklanni/eslint-config/compare/v0.1.16...v0.1.17) (2020-01-23)
 
 ### Bug Fixes
