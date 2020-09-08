@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0-2](https://github.com/therealklanni/eslint-config/compare/v1.0.0-1...v1.0.0-2) (2020-09-08)
+
+### Bug Fixes
+
+- **publish:** remove scripts from ignore ([16c225b](https://github.com/therealklanni/eslint-config/commit/16c225bc41c174be99c1ae2fe960ed40a45c7cfe))
+
 ## [1.0.0-1](https://github.com/therealklanni/eslint-config/compare/v1.0.0-0...v1.0.0-1) (2020-09-03)
 
 ### ⚠ BREAKING CHANGES
