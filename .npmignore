@@ -1,5 +1,4 @@
 .vscode/
-scripts/
 .editorconfig
 .nvmrc
 commitlint.config.js
