@@ -11,8 +11,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "standard-version",
     "postrelease": "git push --follow-tags origin master && npm publish",
-    "prerelease": "standard-version --prerelease",
-    "postprerelease": "git push --follow-tags origin master && npm publish --tag prerelease"
+    "release:pre": "standard-version --prerelease",
+    "postrelease:pre": "git push --follow-tags origin master && npm publish --tag prerelease"
   },
   "husky": {
     "hooks": {
