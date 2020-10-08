@@ -17,7 +17,7 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn pretty-quick --staged --verbose --pattern '**/*.{json,md,y{a}ml}' && lint-staged"
+      "pre-commit": "pretty-quick --staged --verbose --pattern '**/*.{json,md,y{a}ml}' && lint-staged"
     }
   },
   "lint-staged": {
