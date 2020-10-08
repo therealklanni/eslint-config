@@ -1,6 +1,7 @@
 module.exports = {
   extends: ['./node'],
   rules: {
-    'no-sync': 'off'
+    'no-sync': 'off',
+    'no-console': 'warn'
   }
 }
