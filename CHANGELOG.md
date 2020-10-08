@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0-4](https://github.com/therealklanni/eslint-config/compare/v1.0.0-3...v1.0.0-4) (2020-10-08)
+
+### Features
+
+- **node-cli:** change no-console to warn ([ac8c89b](https://github.com/therealklanni/eslint-config/commit/ac8c89bcd5ea5a2353be18ff5d1afde25b55d4fa))
+
 ## [1.0.0-3](https://github.com/therealklanni/eslint-config/compare/v1.0.0-2...v1.0.0-3) (2020-10-08)
 
 ## [1.0.0-2](https://github.com/therealklanni/eslint-config/compare/v1.0.0-1...v1.0.0-2) (2020-09-08)
