@@ -1,0 +1,13 @@
+[
+  { "name": "base", "hint": null },
+  { "name": "jsx", "hint": "TypeScript + JSX" },
+  { "name": "jsx-cra", "hint": "React-App + JSX" },
+  { "name": "prettier-jsx", "hint": "Prettier + JSX" },
+  { "name": "prettier-jsx-cra", "hint": null },
+  { "name": "typescript", "hint": null },
+  { "name": "prettier-typescript", "hint": "Prettier + TypeScript" },
+  { "name": "prettier", "hint": null },
+  { "name": "node", "hint": "Node addon" },
+  { "name": "node-cli", "hint": "Node CLI addon" },
+  { "name": "jest", "hint": "Jest addon" }
+]

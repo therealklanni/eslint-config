@@ -30,6 +30,9 @@
       "./prettier"
     ]
   },
+  "eslintIgnore": [
+    "test.js"
+  ],
   "prettier": "@therealklanni/prettier-config",
   "keywords": [
     "eslint",
