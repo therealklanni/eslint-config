@@ -8,7 +8,13 @@ module.exports = {
     // must disable the base rule as it can report incorrect errors
     'brace-style': 'off',
     '@typescript-eslint/brace-style': 'error',
-    '@typescript-eslint/explicit-member-accessibility': 'error',
+    '@typescript-eslint/explicit-member-accessibility': [
+      'error',
+      {
+        accessibility: 'explicit',
+        overrides: { constructors: 'no-public' }
+      }
+    ],
     // must disable the base rule as it can report incorrect errors
     'func-call-spacing': 'off',
     '@typescript-eslint/func-call-spacing': 'error',
