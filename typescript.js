@@ -2,11 +2,7 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
-  extends: [
-    './base',
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended'
-  ],
+  extends: ['./base', 'plugin:@typescript-eslint/recommended'],
   rules: {
     '@typescript-eslint/array-type': 'error',
     // must disable the base rule as it can report incorrect errors
@@ -32,7 +28,6 @@ module.exports = {
     '@typescript-eslint/no-throw-literal': 'error',
     '@typescript-eslint/no-unnecessary-condition': 'error',
     '@typescript-eslint/no-unnecessary-type-arguments': 'error',
-    '@typescript-eslint/no-untyped-public-signature': 'error',
     // must disable the base rule as it can report incorrect errors
     'no-unused-expressions': 'off',
     '@typescript-eslint/no-unused-expressions': ['error'],
