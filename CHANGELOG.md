@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0-5](https://github.com/therealklanni/eslint-config/compare/v1.0.0-4...v1.0.0-5) (2020-10-19)
+
+### Features
+
+- **typescript:** update explicit-member-accessibility ([974d811](https://github.com/therealklanni/eslint-config/commit/974d81121637ae16a7c991f77b7b737bf19637ab))
+
+### Bug Fixes
+
+- **typescript:** remove no-untyped-public-signature ([74538ce](https://github.com/therealklanni/eslint-config/commit/74538cec3a1b15e354d6390c411d91a05e784900))
+
 ## [1.0.0-4](https://github.com/therealklanni/eslint-config/compare/v1.0.0-3...v1.0.0-4) (2020-10-08)
 
 ### Features
