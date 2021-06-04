@@ -1,9 +1,9 @@
 /* eslint-disable no-magic-numbers */
 module.exports = {
   env: { es6: true, browser: true },
-  parserOptions: { ecmaVersion: 10 },
+  parserOptions: { ecmaVersion: 12 },
   plugins: ['import'],
-  extends: ['eslint:recommended'],
+  extends: ['eslint:recommended', 'plugin:import/errors'],
   rules: {
     // eslint:recommended
     'no-unused-vars': ['error', { varsIgnorePattern: '^_', argsIgnorePattern: '^_' }],

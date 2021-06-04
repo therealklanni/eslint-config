@@ -2,7 +2,7 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
-  extends: ['./base', 'plugin:@typescript-eslint/recommended'],
+  extends: ['./base', 'plugin:@typescript-eslint/recommended', 'plugin:import/typescript'],
   rules: {
     '@typescript-eslint/array-type': 'error',
     // must disable the base rule as it can report incorrect errors

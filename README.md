@@ -99,7 +99,7 @@ These configurations can be included (via extends) as supplementary to the above
 stand-alone. They do not extend the base or other configs and instead just provide a set of
 sensible defaults for a specific plugin.
 
-- `node` — sets globals and rules for Node
+- `node` — configures [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)
 - `node-cli`
 - `jest` — configures [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)
 
