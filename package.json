@@ -1,6 +1,6 @@
 {
   "name": "@therealklanni/eslint-config",
-  "version": "1.0.0-5",
+  "version": "1.0.0-6",
   "description": "Shareable ESLint config",
   "author": "Kevin Lanni <therealklanni@gmail.com> (https://github.com/therealklanni)",
   "license": "MIT",
